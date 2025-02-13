@@ -10,6 +10,7 @@ import Blog from "./Pages/Blog"
 import About from "./Pages/About"
 import Contect from "./Pages/Contect"
 import SignIn from "./Login/SignIn"
+import Signup from "./Login/Signup"
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/about" element = {<About/>}/>
           <Route path="/contact" element = {<Contect/>}/>
           <Route path="/signin" element = {<SignIn/>}/>
+          <Route path="/signup" element = {<Signup/>}/>
         </Route>
 
       </Route>

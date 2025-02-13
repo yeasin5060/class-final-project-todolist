@@ -62,7 +62,7 @@ const SignIn = () => {
               />
               <span className="text-gray-700">Remember Me</span>
             </label>
-            <Link to="/forgot-password" className="text-blue-600 hover:underline">
+            <Link to="forgot-password" className="text-blue-600 hover:underline">
               Forgot Password?
             </Link>
           </div>
@@ -79,7 +79,7 @@ const SignIn = () => {
         {/* Register Link */}
         <p className="text-center text-gray-700 mt-4">
           Don't have an account?{" "}
-          <Link to="/register" className="text-blue-600 hover:underline">
+          <Link to="/signup" className="text-blue-600 hover:underline">
             Register
           </Link>
         </p>
