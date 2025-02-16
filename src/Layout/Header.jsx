@@ -3,16 +3,16 @@ import { Link } from "react-router-dom";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
+import logo from '../images/Logo.png'
 
 const Header = () => {
   return (
-    <header className="bg-black text-white py-4">
+    <header className="bg-white text-black py-4">
       <div className="container mx-auto flex justify-between items-center px-4">
-        {/* Logo */}
-        <div className="text-2xl font-bold">
-          <Link to="/">BlogSite</Link>
+        {/* time */}
+        <div>
+          <h4 className="text-black text-4 capitalize font-bold">monday , march 2025 </h4>
         </div>
-
         {/* Navigation Links */}
         <nav className="hidden md:flex space-x-6">
           <Link to="career" className="hover:text-blue-400 transition">Career</Link>

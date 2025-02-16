@@ -3,14 +3,14 @@ import {
   createBrowserRouter,
   RouterProvider,
   Route
-}from "react-router-dom"
-import Main from "./Layout/Main"
-import Home from "./Pages/Home"
-import Blog from "./Pages/Blog"
-import About from "./Pages/About"
-import Contect from "./Pages/Contect"
-import SignIn from "./Login/SignIn"
-import Signup from "./Login/Signup"
+}from "react-router-dom";
+import Main from "./Layout/Main";
+import SignIn from "./Login/SignIn";
+import Signup from "./Login/Signup";
+import Homepage from "./Pages/Homepage/Homepage";
+import Contactpage from "./Pages/Contactpage/Contactpage";
+import Blogpage from "./Pages/Blogpage/Blogpage";
+import Aboutpage from "./Pages/Aboutpage/Aboutpage";
 
 
 function App() {
@@ -18,10 +18,10 @@ function App() {
     createRoutesFromElements(
       <Route>
         <Route element = {<Main/>}>
-          <Route path="/" element = {<Home/>}/>
-          <Route path="/blog" element = {<Blog/>}/>
-          <Route path="/about" element = {<About/>}/>
-          <Route path="/contact" element = {<Contect/>}/>
+          <Route path="/" element = {<Homepage/>}/>
+          <Route path="/blog" element = {<Blogpage/>}/>
+          <Route path="/about" element = {<Aboutpage/>}/>
+          <Route path="/contact" element = {<Contactpage/>}/>
           <Route path="/signin" element = {<SignIn/>}/>
           <Route path="/signup" element = {<Signup/>}/>
         </Route>
