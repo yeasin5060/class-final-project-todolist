@@ -1,8 +1,11 @@
 import React from 'react'
+import Blogbanner from './Blogbanner'
 
 const Blogpage = () => {
   return (
-    <div>Blogpage</div>
+    <>
+      <Blogbanner/>
+    </>
   )
 }
 

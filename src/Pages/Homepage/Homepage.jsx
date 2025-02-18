@@ -9,6 +9,7 @@ const Homepage = () => {
     <Homebaner/>
     <Homeads/>
     <Homeletestpost/>
+    <Homeads/>
    </>
   )
 }
