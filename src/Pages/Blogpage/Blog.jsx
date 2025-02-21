@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import Heading from '../../Utils/Heading';
 import { Link } from 'react-router-dom';
 import logo from "../../images/blogo.png";
@@ -105,12 +105,12 @@ const homePostArray = [
     
 ]
 
-const Homeletestpost = () => {
+
+const Blog = () => {
   return (
     <div className="bg-white">
         <div className="container">
             <div className="text-left">
-                <Heading level="h3" className="text-[24px] text-[#181A2A] font-bold capitalize" text = "Latest Post" />
                 <div className="flex justify-between gap-y-[20px] mt-[32px] flex-wrap">
                     {
                         homePostArray.map((item , index) => (
@@ -142,4 +142,4 @@ const Homeletestpost = () => {
   )
 }
 
-export default Homeletestpost
+export default Blog
