@@ -1,5 +1,5 @@
 import React from 'react'
-import banner from "../../images/image.jpg"
+import banner from "../../images/homebanner.jpg"
 import Heading from '../../Utils/Heading'
 import logo from "../../images/blogo.png"
 import { Link } from 'react-router-dom'
